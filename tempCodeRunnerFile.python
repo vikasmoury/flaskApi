@@ -1,0 +1,54 @@
+
+# l = []
+# for i in range(10):
+#     if i%2:
+#         l.append(i)
+#         print(l)
+# ls = [i for i in range(10) if i%2]
+# print(ls)
+
+# d = {}
+# for i in range(1,10):
+#     sqr = i*i
+# d[i] = i*i
+# print(d)
+# d1={n:n*n for n in range(1,10)}
+# print (d1)
+
+# def sqr(n):
+#     for i in range(1, n+1):
+#         yield i*i
+# a = sqr(3)
+# print(next(a))
+# print(next(a))
+# print(next(a))
+
+# f = open("vikas kumar mourya.txt")
+# content = f.read()
+# print(content)
+# f.close()
+
+# with open("vikas kumar mourya.txt") as f:
+#     content = f.read()
+# print(content)
+
+# x = list(map(int, input("Enter a multiple value: ").split()))
+# print("List of Values: ", x)
+
+# x = [int(x) for x in input("Enter multiple value: ").split()]
+# print("Number of list is: ", x)
+
+# d1 = {'A':1,'B':2,'C':3}
+# # print(d1) #{'A': 1, 'B': 2, 'C':3}
+# d1.pop('A')
+# print(d1)
+# del d1['B']
+# print(d1) 
+
+d2={'A':1,'B':2,'C':3}
+# print(d2) # {'A': 1, 'B': 2, 'C': 3}
+# d3 = d2.copy()
+# print(d3) # {'A': 1, 'B': 2, 'C': 3}
+del d2['B']
+print(d2) # {'A': 1, 'C': 3}
+# print(d3) # {'A': 1, 'B':2, 'C': 3}
